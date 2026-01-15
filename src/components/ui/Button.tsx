@@ -1,6 +1,5 @@
 type ButtonProps = {
   content: string;
-
 };
 const Button = ({ content }: ButtonProps) => {
   return (
