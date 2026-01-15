@@ -1,18 +1,12 @@
 type ButtonProps = {
   content: string;
-  bgColor: string;
-  textColor: string;
+
 };
-const Button = ({ content, bgColor, textColor }: ButtonProps) => {
+const Button = ({ content }: ButtonProps) => {
   return (
     <div className="font-inter ">
       <button
-        style={{
-          backgroundColor: bgColor,
-          borderColor: bgColor,
-          color: textColor,
-        }}
-        className={`  border  px-4 py-2 rounded-sm hover:cursor-pointer`}
+        className={`bg-[#d3fb52] hover:bg-[#a1dd3b] transition-colors duration-150  px-4 py-2 rounded-sm hover:cursor-pointer`}
       >
         <p className={`font-medium text-[16px]`}>{content}</p>
       </button>

@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./ui/Button";
+import InfiniteStrips from "./InfiniteStrips ";
 
 const Hero = () => {
   return (
@@ -11,9 +12,12 @@ const Hero = () => {
       <section className="mb-32">
         <Button
           content="Find Jobs & Internships Now"
-          textColor="#000000"
-          bgColor="#d3fb52"
+
         />
+      </section>
+      <section className="">
+        <p className="mb-13 font-medium text-center">Where Students Aspire To Work</p>
+        <InfiniteStrips />
       </section>
     </div>
   );
