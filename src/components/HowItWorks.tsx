@@ -1,4 +1,3 @@
-import React from "react";
 import LandingCard from "./LandingCard";
 import landingJob from "../assets/images/landingJob.svg";
 import landingFeed from "../assets/images/landingFeed.svg";

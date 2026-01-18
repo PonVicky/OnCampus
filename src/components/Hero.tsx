@@ -1,4 +1,3 @@
-import React from "react";
 import Button from "./ui/Button";
 import InfiniteStrips from "./InfiniteStrips ";
 import hero1 from "../assets/images/heroImage.svg";
@@ -23,7 +22,7 @@ const Hero = () => {
           Get Started
         </button>
       </section>
-      <img src={hero1} alt="hero-image" />
+      <img src={hero1} alt="hero-image" className="hidden" />
       <section className="mt-15 md:mt-0 mb-40">
         <p className="md:block hidden mb-13 font-medium text-center">
           Where Students Aspire To Work

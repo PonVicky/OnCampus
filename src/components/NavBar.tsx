@@ -5,10 +5,9 @@ const NavBar = () => {
   return (
     <div className="w-full px-4 md:px-8 py-5 font-inter">
       <nav className="flex justify-between items-center">
-
         <img src={logo} alt="logo" className="hidden md:block" />
         <div className="md:hidden rounded-md overflow-hidden">
-          <img src={logoSmall} alt="logo" className=" w-[32px] h-[32px]" />
+          <img src={logoSmall} alt="logo" className=" w-8 h-[32px]" />
         </div>
         <section className="flex gap-2">
           <select className="text-[15px]">
