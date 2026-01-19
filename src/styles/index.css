@@ -12,13 +12,13 @@
     transform: translateX(0);
   }
   to {
-    transform: translateX(-50%);
+    transform: translateX(-10%);
   }
 }
 
 @keyframes marquee-right {
   from {
-    transform: translateX(-50%);
+    transform: translateX(-10%);
   }
   to {
     transform: translateX(0);
@@ -27,7 +27,7 @@
 
 .marquee-track {
   display: flex;
-  width: 200vw; /* 🔥 CRITICAL */
+  width: max-content;
 }
 
 .marquee-left {

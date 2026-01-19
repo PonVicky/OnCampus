@@ -1,7 +1,8 @@
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import HowItWorks from "./components/HowItWorks";
 import NavBar from "./components/NavBar";
-import Testimonials from "./components/Testimonials";
+import TestimonialContainer from "./components/TestimonialContainer";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <div className="md:mb-30">
         <HowItWorks />
       </div>
-      <Testimonials />
+      <TestimonialContainer />
+      <Footer />
     </div>
   );
 }
